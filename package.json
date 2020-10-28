@@ -1,0 +1,28 @@
+{
+  "name": "goit-web-app-training",
+  "version": "1.0.0",
+  "description": "Модуль 10. Занятие 20. Мастерская: знакомство с веб-приложениями (08/10/2020)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vognuk/10-20_web-app-training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vognuk/10-20_web-app-training/issues"
+  },
+  "homepage": "https://github.com/vognuk/10-20_web-app-training#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {}
+}
