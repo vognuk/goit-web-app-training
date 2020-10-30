@@ -2,6 +2,8 @@ const express = require('express');
 const exhbs = require('express-handlebars');
 const products = require('./products.json');
 
+const PORT = process.env.PORT || 4444;
+
 const app = express();
 
 app.use(express.static('public'));
